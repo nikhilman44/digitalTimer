@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 12vh;
+}
+.main-heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.timer-bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10vw;
+  height: 75vh;
+  width: 40vw;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+}
+.btn-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.text {
+  font-size: 18px;
+  color: black;
+  margin-right: 12px;
+}
+.text1 {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+.set-time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.set-time {
+  height: 30px;
+  width: 30px;
+  color: black;
+  font-size: 22px;
+  margin: 7px;
+  border-width: 0;
+  background-color: transparent;
+}
+.set-time-text {
+  height: 32px;
+  width: 50px;
+  border-radius: 7px;
+  background-color: #00d9f5;
+  border-width: 0;
+  margin: 7px;
+  text-align: center;
+  padding-top: 3px;
+}
+.view-timer {
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  text-align: center;
+  padding-top: 3px;
+}
+.icon-btn {
+  background-color: transparent;
+  border-width: 0;
+}
